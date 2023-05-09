@@ -296,18 +296,18 @@ span {
     font-weight: 550;
 }
 
-.project-layer a {
+.project-layer .link a {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0.5rem;
     background: var(--text-color);
-    border-radius: 50%;
+    border-radius: 20%;
+    font-size: small;
+    margin: 0rem 1rem;
 }
 
-.project-layer a i {
-    font-size: 2rem;
+.project-layer .link a span {
     color: var(--second-bg-color);
 }
 
@@ -407,5 +407,9 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    
+    .sosmed a{
+        margin: 0rem 0.5rem 1.5rem 0;
     }
 }
